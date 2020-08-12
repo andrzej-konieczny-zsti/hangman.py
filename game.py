@@ -65,7 +65,7 @@ class Hangman():
         self.draw()
 
     def draw(self):
-        print("".join(word.word))
+        # print("".join(word.word))
         print("".join(word.to_print))
         with open("./{}.txt".format(self.i)) as art:
             print(art.read())
